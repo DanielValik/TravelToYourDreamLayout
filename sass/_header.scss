@@ -1,0 +1,54 @@
+.header{
+    font-size: 2.1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 9.7rem 0 12.4rem;
+
+    &__menu {
+        &-list {
+            display: flex;
+            justify-content: center;
+        }
+
+        &-item {
+            margin-right: 7.8rem;
+        }
+
+        &-item:last-child {
+            margin-right: 0;
+        }
+
+        &-link {
+            color: #515155;
+            font-weight: 300;
+            text-decoration: none;
+        }
+
+        &-link_active {
+            color: #232323;
+            font-weight: bold;
+        }
+
+        &-link:hover {
+            color: #232323;
+            text-shadow: 0 0 0.1rem;
+        }
+    }
+
+    &__actions{
+
+        &-btn {
+            color: $mainTextColour;
+            background-color: transparent;
+
+            font-size: 2.1rem;
+            font-weight: bold;
+
+            padding: 1.9rem 5.5rem;
+        }
+
+    }
+}

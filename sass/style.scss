@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&family=Lato:wght@300;400;900&display=swap');
+@import "./vars";
+@import "./header";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #e9e7e7;
+  font-family: $textFont;
+  font-size: 1.65rem;
+  color: $mainTextColour;
+}
+
+ul {
+  list-style: none;
+}
+
+h1, h2, h3 {
+  font-family: $titleFont;
+  font-weight: bold;
+  color: $mainTextColour;
+}
+
+.wrapper {
+  width: 144rem;
+  margin: 0 auto;
+}
+
+.btn {
+  border: none;
+  text-decoration: none;
+
+  border: 3px solid;
+  border-radius: 5px;
+}
+
+
+// %flex_center {
+//   display: flex;
+//   justify-content: center;
+// }
+
+// .example_block {
+//   @extend %flex_center;
+
+// }
