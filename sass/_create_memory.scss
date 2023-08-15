@@ -1,0 +1,43 @@
+.create_memory {
+    width: 144rem;
+    height: 38.7rem;
+    background-color: $mainTextColour;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    &__content {
+        max-width: 43.8rem;
+        width: 100%;
+        color: $whiteTextColour;
+
+        &-title {
+            font-family: $titleFont;
+            font-size: 5.55rem;
+            font-weight: bold;
+            line-height: 1;
+            letter-spacing: -1.39px;
+
+            margin-top: 5.2rem;
+        }
+
+        &-text {
+            font-size: 1.65rem;
+            letter-spacing: -0.41px;
+
+            margin-top: 3.3rem;
+        }
+
+        &-btn {
+            width: 257px;
+            font-size: 2.1rem;
+            font-weight: bold;
+            letter-spacing: -0.53px;
+            padding: 1.8rem 5.8rem;
+
+            margin: 2.9rem auto 5.4rem;
+        }
+    }
+}

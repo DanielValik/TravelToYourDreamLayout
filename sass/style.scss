@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&family=Lato:wght@300;400;900&display=swap');
 @import "./vars";
+
 @import "./header";
+@import "./intro";
+@import "./create_memory";
 
 * {
   box-sizing: border-box;
@@ -29,16 +32,15 @@ h1, h2, h3 {
 }
 
 .wrapper {
-  width: 144rem;
+  width: 119.6rem;
   margin: 0 auto;
 }
 
 .btn {
-  border: none;
   text-decoration: none;
 
   border: 3px solid;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 
