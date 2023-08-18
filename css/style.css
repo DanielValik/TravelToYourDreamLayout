@@ -40,10 +40,12 @@
 .intro {
   display: flex;
   justify-content: space-between;
+  position: relative;
   margin-bottom: 15.9rem;
 }
 .intro__text {
   width: 42.8rem;
+  z-index: 2;
 }
 .intro__text-title {
   font-family: Cardo;
@@ -69,6 +71,21 @@
   -o-object-fit: contain;
      object-fit: contain;
 }
+.intro__image {
+  z-index: 2;
+}
+.intro__scribble_light {
+  position: absolute;
+  top: 7.7rem;
+  left: -45rem;
+  z-index: 1;
+}
+.intro__scribble_dark {
+  position: absolute;
+  top: 20rem;
+  left: 120rem;
+  z-index: 1;
+}
 
 .create_memory {
   width: 144rem;
@@ -78,6 +95,8 @@
   display: flex;
   justify-content: center;
   text-align: center;
+  position: relative;
+  z-index: 2;
 }
 .create_memory__content {
   max-width: 43.8rem;
@@ -102,8 +121,20 @@
   font-size: 2.1rem;
   font-weight: bold;
   letter-spacing: -0.53px;
-  padding: 1.8rem 5.8rem;
+  padding: 1.4rem 5rem;
   margin: 2.9rem auto 5.4rem;
+}
+.create_memory__scribble_light {
+  position: absolute;
+  top: 3rem;
+  left: -15rem;
+  z-index: 1;
+}
+.create_memory__scribble_light2 {
+  position: absolute;
+  top: 25rem;
+  left: 97rem;
+  z-index: 1;
 }
 
 * {

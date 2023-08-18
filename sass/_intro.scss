@@ -1,11 +1,12 @@
 .intro {
     display: flex;
     justify-content: space-between;
-
+    position: relative;
     margin-bottom: 15.9rem;
 
     &__text {
         width: 42.8rem;
+        z-index: 2;
 
         &-title {
             font-family: $titleFont;
@@ -37,5 +38,23 @@
         width: 662px;
         height: 419px;
         object-fit: contain;
+    }
+
+    &__image {
+        z-index: 2;
+    }
+
+    &__scribble_light {
+        position: absolute;
+        top: 7.7rem;
+        left: -45rem;
+        z-index: 1;
+    }
+
+    &__scribble_dark {
+        position: absolute;
+        top: 20rem;
+        left: 120rem;
+        z-index: 1;
     }
 }
