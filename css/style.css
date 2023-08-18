@@ -137,6 +137,33 @@
   z-index: 1;
 }
 
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16.6rem;
+}
+.cards__item-image::after {
+  content: "";
+  display: block;
+  width: 53px;
+  height: 4px;
+  background-color: #232323;
+  margin: 2.5rem 0;
+}
+.cards__item-title {
+  width: 230px;
+  font-family: Cardo;
+  font-size: 3.65rem;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 3rem;
+}
+.cards__item-text {
+  width: 362px;
+  font-family: Lato;
+  font-size: 1.65rem;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
