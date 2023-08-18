@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 16.6rem;
+    position: relative;
 
     &__item{
         &-image {
@@ -32,5 +33,18 @@
         }
     }
 
+    &__scribble {
+        position: absolute;
+        top: -20rem;
+        left: -20rem;
+        z-index: 1;
+    }
+
+    &__scribble-2 {
+        position: absolute;
+        top: 15rem;
+        left: 120rem;
+        z-index: 1;
+    }
 }
 
