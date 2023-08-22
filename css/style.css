@@ -177,6 +177,48 @@
   z-index: 1;
 }
 
+.see_places {
+  margin-top: 40rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.see_places__icon {
+  margin: 0 auto 6rem;
+}
+.see_places__title {
+  margin: 0 auto 6rem;
+  width: 777px;
+  font-family: Cardo;
+  font-size: 9.8rem;
+  font-weight: bold;
+  letter-spacing: -2.45px;
+  line-height: 1;
+  text-align: center;
+}
+.see_places__title span {
+  font-style: italic;
+  -webkit-text-decoration: underline 0.5rem;
+          text-decoration: underline 0.5rem;
+}
+.see_places__text {
+  margin: 0 auto;
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: -0.63px;
+  text-align: center;
+}
+.see_places__light-scribble {
+  position: absolute;
+  top: -20rem;
+  left: 100rem;
+}
+.see_places__dark-scribble {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
