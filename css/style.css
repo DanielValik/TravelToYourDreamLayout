@@ -179,6 +179,7 @@
 
 .see_places {
   margin-top: 40rem;
+  margin-bottom: 27rem;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -215,8 +216,45 @@
 }
 .see_places__dark-scribble {
   position: absolute;
-  top: 0;
+  top: 440px;
   left: 0;
+}
+
+.after_see_places {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+.after_see_places__big_image {
+  position: relative;
+}
+.after_see_places__big_image__tape {
+  position: absolute;
+  top: 250px;
+  left: -30px;
+  z-index: 1;
+}
+.after_see_places__right_content__small_image {
+  margin-bottom: 7.8rem;
+}
+.after_see_places__right_content__text {
+  display: flex;
+}
+.after_see_places__right_content__text_title {
+  width: 23.6rem;
+  font-family: Cardo;
+  font-weight: bold;
+  font-size: 3.65rem;
+  text-decoration: underline;
+  margin-right: 4.6rem;
+}
+.after_see_places__right_content__text_content {
+  width: 31.7rem;
+  font-family: Lato;
+  font-size: 1.65rem;
+}
+.after_see_places__right_content__text_content__arrow {
+  margin: 11.5rem 0 0 17.5rem;
 }
 
 * {
@@ -239,7 +277,9 @@ ul {
   list-style: none;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: Cardo;
   font-weight: bold;
   color: #232323;

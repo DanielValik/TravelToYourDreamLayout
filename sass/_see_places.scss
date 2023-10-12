@@ -1,46 +1,47 @@
 .see_places {
-    margin-top: 40rem;
-    display: flex;
-    flex-direction: column;
-    position: relative;
+  margin-top: 40rem;
+  margin-bottom: 27rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 
-    &__icon {
-        margin: 0 auto 6rem;
+  &__icon {
+    margin: 0 auto 6rem;
+  }
+
+  &__title {
+    margin: 0 auto 6rem;
+    width: 777px;
+    font-family: $titleFont;
+    font-size: 9.8rem;
+    font-weight: bold;
+    letter-spacing: -2.45px;
+    line-height: 1;
+    text-align: center;
+
+    & span {
+      font-style: italic;
+      text-decoration: underline 0.5rem;
     }
+  }
 
-    &__title {
-        margin: 0 auto 6rem;
-        width: 777px;
-        font-family: $titleFont;
-        font-size: 9.8rem;
-        font-weight: bold;
-        letter-spacing: -2.45px;
-        line-height: 1;
-        text-align: center;
+  &__text {
+    margin: 0 auto;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: -0.63px;
+    text-align: center;
+  }
 
-        & span {
-            font-style: italic;
-            text-decoration: underline 0.5rem;
-        }
-    }
+  &__light-scribble {
+    position: absolute;
+    top: -20rem;
+    left: 100rem;
+  }
 
-    &__text {
-        margin: 0 auto;
-        font-size: 2.5rem;
-        font-weight: bold;
-        letter-spacing: -0.63px;
-        text-align: center;
-    }
-
-    &__light-scribble {
-        position: absolute;
-        top: -20rem;
-        left: 100rem;
-    }
-
-    &__dark-scribble {
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
+  &__dark-scribble {
+    position: absolute;
+    top: 440px;
+    left: 0;
+  }
 }
